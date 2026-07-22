@@ -1,0 +1,14 @@
+[project]
+name = "ai-cicd-engineer"
+version = "0.1.0"
+description = "AI-powered CI/CD Engineer built using the Model Context Protocol (MCP)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "mcp",
+    "openai>=2.44.0",
+    "pydantic",
+    "pydantic-settings>=2.14.2",
+    "uvicorn>=0.49.0",
+]
