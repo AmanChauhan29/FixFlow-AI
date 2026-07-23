@@ -1,4 +1,3 @@
-from app.agents import state
 from app.agents.state import AgentState
 from app.mcp.tool_registry import ToolDefinition
 

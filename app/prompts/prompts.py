@@ -15,7 +15,12 @@ Rules:
 6. Repeat until enough information is collected.
 7. Never guess.
 8. If you need more information, call another tool.
-9. Return only JSON.
-10. Do not wrap the response in markdown
-11. Do not use ```json.
+IMPORTANT:
+Return ONLY a valid JSON object.
+Do NOT wrap the JSON inside markdown.
+Do NOT use ```json.
+Do NOT explain your reasoning outside the JSON.
+Do NOT include any text before or after the JSON.
+The response must begin with {
+and end with }.
 """
